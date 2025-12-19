@@ -2,7 +2,6 @@
 from src.bot_generation import generate_bot_ships
 from src.gameplay import main as gameplay_main
 from src import ship_input, bot_generation, gameplay
-import os
 
 def main():
     print('★=== Battleship (terminal) ===★')
