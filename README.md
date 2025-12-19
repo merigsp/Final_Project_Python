@@ -8,16 +8,20 @@ The game runs entirely in the terminal.
 
 ## Project Structure
 
-├─ main.py # Entry point
+├─ main.py
+├─ data/
+│ ├─ player_ships.csv 
+│ ├─ bot_ships.csv 
+│ ├─ game_state.csv
 ├─ src/
-│ ├─ ship_input.py # Player ship placement
-│ ├─ bot_generation.py # Bot ship generation
-│ ├─ gameplay.py # Game logic and loop
-│ └─ utils.py # Helper functions
-├─ data/ # CSV files for ships and game state
-├─ outputs/ # Logs or additional files (empty)
-├─ requirements.txt # Project dependencies
-└─ README.md # This file
+│ ├─ ship_input.py
+│ ├─ bot_generation.py
+│ ├─ gameplay.py
+│ └─ utils.py
+├─ outputs/
+│ └(any logs or additional result files)
+├─ requirements.txt
+└─ README.md
 
 ## How to Run
 
